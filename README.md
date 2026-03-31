@@ -20,14 +20,14 @@
 >
 > **Technology Stack**
 >
-> Language: Rust (Latest Stable) – leveraging memory safety, zero-cost abstractions, and high concurrency.
-> Web Framework: Axum (built on Tokio, Tower, and Hyper) for high-performance modular APIs.
-> Async Runtime: Tokio – the industry standard for asynchronous I/O and task scheduling.
-> Database: PostgreSQL or MariaDB utilizing SQLx for asynchronous, compile-time verified SQL queries.
-> Networking: Custom TCP server using Tokio and `tokio-util` codecs for low-level protocol handling (AimeDB).
-> Build System: Cargo with a Workspace-based multi-crate architecture (e.g., `ocean-core`, `ocean-games`, `ocean-net`).
-> Serialization: Serde with specialized support for JSON, MessagePack, and custom binary protocols.
-> Authentication: JWT (via `jsonwebtoken`) for web APIs and Keychip-backed secure sessions for game clients.
+> * Language: Rust (Latest Stable) – leveraging memory safety, zero-cost abstractions, and high concurrency.
+> * Web Framework: Axum (built on Tokio, Tower, and Hyper) for high-performance modular APIs.
+> * Async Runtime: Tokio – the industry standard for asynchronous I/O and task scheduling.
+> * Database: PostgreSQL or MariaDB utilizing SQLx for asynchronous, compile-time verified SQL queries.
+> * Networking: Custom TCP server using Tokio and `tokio-util` codecs for low-level protocol handling (AimeDB).
+> * Build System: Cargo with a Workspace-based multi-crate architecture (e.g., `ocean-core`, `ocean-games`, `ocean-net`).
+> * Serialization: Serde with specialized support for JSON, MessagePack, and custom binary protocols.
+> * Authentication: JWT (via `jsonwebtoken`) for web APIs and Keychip-backed secure sessions for game clients.
 >
 > **Core Components to Implement**
 >
