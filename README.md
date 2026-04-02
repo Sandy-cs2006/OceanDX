@@ -2,19 +2,20 @@
 
 ## Requirements
 
-1. Claude Code subscription (and a few million tokens)
-2. A computer
-3. A cat
+1. Claude Code subscription (Max recommended) and a few million tokens (it's an approximation)
+2. A computer connected to the Internet (and please make sure you may access Claude Code)
+3. A cat (which could be any kind you like)
 
 ## Building & Usage Instructions
 
-1. Download and start claude code (compiler)
-2. Copy the source code below and paste it into claude code
-3. Cuddle your cat
-4. Wait for claude code to finish building
-5. Run the server
+1. Download and start Claude Code (compiler)
+2. Copy the prompt below and paste it into Claude Code
+3. Cuddle your cat while Claude Code is working on the project
+4. Wait for Claude Code to finish building
+5. Run the server to see it there is any problem
+6. If you encounter any issue, ask Claude Code to fix it; If not, enjoy
 
-## Source code
+## Prompt
 
 > Please build OceanDX, a multipurpose, high-performance game server for SEGA ALL.Net arcade games (including CHUNITHM, maimai DX, O.N.G.E.K.I., Card Maker, etc.). The server must handle card authentication via the AimeDB protocol, title server requests via the AllNet protocol, and game-specific API endpoints (usually JSON over HTTP).
 >
